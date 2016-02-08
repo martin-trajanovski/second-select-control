@@ -328,9 +328,9 @@
 						stickyPlaceholder: false,
 						onChange: function(val){
 							var img = document.createElement('img');
-							img.src = 'src/img/'+val+'.png';
+							img.src = 'bower_components/second-select-control-package/src/img/'+val+'.png';
 							img.onload = function() {
-								document.querySelector('span.cs-placeholder').style.backgroundImage = 'url(src/img/'+val+'.png)';
+								document.querySelector('span.cs-placeholder').style.backgroundImage = 'url(bower_components/second-select-control-package/src/img/'+val+'.png)';
 							};
 						}
 					});
